@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    background-color: #e12626;
+    color: white;
+    width: 39vh;
+}
+.aaa{
+    padding: 0 0 0 42vh;
+}
+.img{
+    display: grid;
+    grid-template-columns: 74vh 70vh;
+    grid-template-rows:61vh 42vh 52vh ;
+    padding: 5vh 0 0 0 ;
+    
+}
+.ig{
+width: 72vh;
+opacity: 0.74;
+transition-duration: 0.3s;
+}
+.ig:hover{
+    opacity: 1;
+}
+.side-name{
+    margin: 13vh 15vh 5vh 7vh;
+    font-size: 5vh;
+    font-family: 'Poppins', sans-serif;
+}
+.Menu{
+    text-decoration: none;
+    color: white;
+    line-height:8vh ;
+    margin:7vh ;
+    font-size: 3.4vh;
+    font-family: 'Poppins', sans-serif;
+}
+.Menu:hover{
+    background-color: white;
+    color: black;
+    width: 10vh;
+}
+.up{
+    font-size:8vh ;
+    padding: 14vh 0 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+.up1{
+    font-size: 6vh;
+    padding:2vh 0 0 0 ;
+    color: #e12626;
+    font-family: 'Poppins', sans-serif;
+}
+.line{
+    width: 10vh;
+    height:1.5vh ;
+    background-color: #e12626;
+    border-radius: 1vh;
+    margin:2vh 0 0 0  ;
+}
+.para{
+    padding: 5vh 0 0 0;
+    font-size:3vh ;
+    width: 152vh;
+}
+#sen2{
+    padding: 2vh 0 0 0;
+}
+#sen3{
+    padding: 2vh 0 0 0;
+    font-family:'Poppins', sans-serif;
+    
+}
+.set{
+    background-color: #abaaaa2b;
+    width: 47vh;
+    height: 65vh;
+    opacity: 0.74;
+    transition-duration: 0.3s;
+}
+.set:hover{
+    opacity: 1;
+}
+.ig1{
+    width:47vh ;
+}
+.designers{
+    display: grid;
+    grid-template-columns:49vh 49vh 47vh ;
+    padding-top: 3vh;
+}
+.headings{
+    padding: 2vh 0 0 2vh;
+    font-size: 4.1vh;
+    font-family:'Poppins', sans-serif ;
+}
+.info{
+    padding: 3vh 0 0 2vh;
+    font-size: 2.9vh;
+    font-family: 'Poppins', sans-serif;
+    color: #3c3838;
+}
+.sen{
+    padding: 5vh 0 0 2vh;
+    font-size: 2.9vh;
+}
+#pack{
+    padding-top:8vh ;
+}
+.packages{
+    display: grid;
+    grid-template-columns:74vh 71vh ;
+    padding-top: 3vh;
+}
+.box{
+    
+    width:71vh ;
+    background-color: #abaaaa2b;
+    height: 82vh;
+}
+.box1{
+    
+    width: 71vh;
+    background-color:#abaaaa2b;
+    height: 82vh;
+}
+#bo{
+    height: 14vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color:#5a5858 ;
+    color: white;
+    font-size: 3vh;
+    font-family:'Poppins', sans-serif ;
+}
+#boo{
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e12626;
+    color: white;
+}
+.text{
+    height:8vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-family:'Poppins', sans-serif ;
+    font-size: 3vh
+}
+.gud{
+    font-size: 2.5vh;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    padding-bottom: 2vh;
+}
+#rate1{
+    font-size: 4.5vh;
+    height: 9vh;
+}
+#rate2{
+    font-size: 4.5vh;
+    height: 9vh;
+}
+.subbut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+}
+#butt1{
+height: 6vh;
+width: 14vh;
+background-color: white;
+border: white;
+font-size: 2.5vh;
+}
+#butt2{
+    height: 6vh;
+    width: 14vh;
+    background-color: #e12626;
+    font-size: 2.5vh;
+    color: white;
+    border: white;
+}
+#butt1:hover{
+background-color: black;
+color: white;
+}
+#butt2:hover{
+    background-color: black;
+}
+#contact{
+    padding-top: 10vh;
+}
+#kis{
+    padding-top: 2vh ;
+}
+.mes{
+    font-size: 3vh;
+}
+.int{
+    height:5vh ;
+    width: 145vh;
+    margin-bottom: 3vh;
+}
+form{
+    padding-top: 3vh;
+}
+#conbut{
+    height: 5vh;
+    width: 145vh;
+    background-color: #e12626;
+    font-size: 3vh;
+    border: #e12626;
+    color: white;
+}
+footer{
+    height: 29vh;
+    margin-top:14vh;
+    background-color: #abaaaa2b;
+}
+#iden{
+    float: right;
+    position: relative;
+    top: 17vh;
+}
