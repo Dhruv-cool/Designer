@@ -281,7 +281,7 @@ form{
         display: block;
     }
     .v-nav{
-     opacity: 0;
+     display: none;
     }
    .side-name{
     padding-top: 8vh;
