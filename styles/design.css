@@ -260,9 +260,10 @@ form{
     display: none;
     top: 0;
     position: absolute;
-    right: clamp(min(44%),49%, max(56%));
+   right: clamp(min(72%),79%, max(80%));
     margin-top: 5vh;
     cursor: pointer;
+    z-index:2;
    
 }
 .burger.active{
@@ -286,15 +287,16 @@ form{
     font-size: 11vh;
    }
    .h-nav-resp{
-    background-color:white;
-    height: 14vh;
-    position: absolute;
+    
+    height: 0;
+    
    }
    .aaa-resp{
     padding: 85px 0 0 5vh;
    }
    .nav1{
     width: 45%;
+       transition: all 0.45s ease-out;
    }
     li{
         margin-bottom: clamp(min(7vh),8vh, max(9vh));
