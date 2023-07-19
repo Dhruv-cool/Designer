@@ -414,6 +414,9 @@ form{
     .ig{
         width: 68vh;
     }
+    .img{
+        grid-template-columns: 71vh 70vh;
+    }
     
 }
     
