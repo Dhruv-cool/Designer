@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
 }
-nav{
+.nav1{
     
     position: fixed;
     z-index: 1;
-    height: 100vh;
+    height: 100%;
     background-color: #e12626;
     color: white;
     width: 39vh;
@@ -42,11 +42,15 @@ transition-duration: 0.3s;
     font-size: 3.4vh;
     font-family: 'Poppins', sans-serif;
 }
-.Menu:hover{
+li:hover{
     background-color: white;
-    color: black;
-    width: 10vh;
+    .Menu{
+        color: black;
+    }
+    
 }
+
+
 .up{
     font-size:8vh ;
     padding: 14vh 0 0 0;
@@ -92,9 +96,10 @@ transition-duration: 0.3s;
     width:47vh ;
 }
 .designers{
-    display: grid;
-    grid-template-columns:49vh 49vh 47vh ;
+    display: flex;
+    
     padding-top: 3vh;
+    gap:3vh
 }
 .headings{
     padding: 2vh 0 0 2vh;
@@ -115,8 +120,8 @@ transition-duration: 0.3s;
     padding-top:8vh ;
 }
 .packages{
-    display: grid;
-    grid-template-columns:74vh 71vh ;
+    display: flex;
+    gap:3vh ;
     padding-top: 3vh;
 }
 .box{
@@ -218,6 +223,7 @@ color: white;
     height:5vh ;
     width: 145vh;
     margin-bottom: 3vh;
+    border: 1px solid;
 }
 form{
     padding-top: 3vh;
@@ -230,7 +236,7 @@ form{
     border: #e12626;
     color: white;
 }
-footer{
+.foot{
     height: 29vh;
     margin-top:14vh;
     background-color: #abaaaa2b;
@@ -240,3 +246,170 @@ footer{
     position: relative;
     top: 17vh;
 }
+.line-resp{
+    width: 50px;
+    background-color: #e12626;
+    height: 10px;
+    padding: 3px 3px 0px 0px;
+    /* line-height: 0px; */
+    margin: 1vh;
+    border-radius: 2vh;
+    
+}
+.burger{
+    display: none;
+    top: 0;
+    position: absolute;
+    right: clamp(min(44%),49%, max(56%));
+    margin-top: 5vh;
+    cursor: pointer;
+   
+}
+.burger.active{
+    right: 76%;
+}
+.burger.active .line-resp{
+    background-color: white;
+}
+.aaa-resp.active{
+    opacity: 0.6;
+}
+@media  (max-width: 35em){
+    .burger{
+        display: block;
+    }
+    .v-nav{
+     opacity: 0;
+    }
+   .side-name{
+    padding-top: 8vh;
+    font-size: 11vh;
+   }
+   .h-nav-resp{
+    background-color:white;
+    height: 14vh;
+    position: absolute;
+   }
+   .aaa-resp{
+    padding: 85px 0 0 5vh;
+   }
+   .nav1{
+    width: 45%;
+   }
+    li{
+        margin-bottom: clamp(min(7vh),8vh, max(9vh));
+    }
+    .Menu{
+        font-size: 6.5vh;
+    }
+    .up{
+        font-size: 13vh;
+    padding: 14vh 19vh 37vh 1px;
+    font-family: 'Poppins', sans-serif;
+    width: 100vh;
+    height: 17vh;
+    }
+    .up1{
+        font-size: 12vh;
+    }
+    .line{
+        width: 21vh;
+    }
+    .para{
+        text-align: justify;
+    padding: 5vh 0px 0px 0px;
+    font-size: 6vh;
+    width: 133vh;
+    }
+    .designers{
+        gap: 5vh;
+    flex-direction: column;
+    width: max-content;
+    }
+    .set{
+        height:141vh ;
+        width: 133vh;
+
+    }
+    .ig1{
+        width: 133vh;
+    }
+    .headings{
+        font-size: 7.1vh;
+    }
+    .info{    font-size: 5.9vh;}
+    .sen{
+        font-size: 5vh;
+        width: 84vh;
+    }
+    .packages{
+        flex-direction: column;
+        width: max-content;
+        gap: 25vh;
+    }
+    .box{
+        width: 133vh;
+        height:186vh ;
+    }
+    .box1{
+        width: 133vh;
+        height:186vh ;
+    }
+    #bo{
+        height: 24vh;
+        font-size:6vh ;
+    }
+    #boo{
+        height: 24vh;
+        font-size:6vh ;
+    }
+    .text{
+        height: 24vh;
+        font-size: 5vh;
+    }
+    #rate1{
+        font-size: 4.5vh;
+    height: 9vh;
+    }
+    #rate2{
+        font-size: 4.5vh;
+    height: 9vh;
+    }
+    .gud{
+        font-size: 4.5vh;
+
+    }
+    .subbut{
+        height:23vh ;
+    }
+    #butt1{
+        height: 14vh;
+        width: 25vh;
+        font-size: 5.5vh;
+    }
+    #butt2{
+        height: 14vh;
+        width: 25vh;
+        font-size: 5.5vh;
+    }
+    .int{
+        height: 13vh;
+    width: 130vh;
+    margin-bottom: 10vh;
+    }
+    .mess{
+      font-size: 4vh;
+    }
+    #conbut{
+        width: 130vh;
+        height: 12vh;
+        font-size:5vh ;
+    }
+    .foot{
+        width: 151vh;
+    }
+    #iden{
+        font-size: 3vh;
+    }
+}
+    
