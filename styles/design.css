@@ -267,7 +267,8 @@ form{
    
 }
 .burger.active{
-    right: 76%;
+    right: 89%;
+        position:fixed;
 }
 .burger.active .line-resp{
     background-color: white;
