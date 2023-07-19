@@ -290,6 +290,7 @@ form{
    .h-nav-resp{
     
     height: 0;
+       display:none;
     
    }
    .aaa-resp{
